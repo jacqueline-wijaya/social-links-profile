@@ -13,9 +13,43 @@ body {
     height: 450px;
     background-color:hsl(0, 0%, 12%);
     border-radius: 10px;
+    text-align: center;
 }
 
 .user-picture {
     border-radius: 100px;
     height:40%;
+    margin-top: 10px;
+    margin-bottom: -90px;
+    display: flex;
+    justify-content: center;
 }
+
+h2 {
+    color: white;
+    margin-bottom: 5px;
+    font-family: "Inter", sans-serif;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.description {
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+}
+
+.links {
+    color: white;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
